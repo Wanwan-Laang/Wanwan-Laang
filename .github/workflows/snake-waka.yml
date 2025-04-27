@@ -40,6 +40,7 @@ jobs:
   update-waka:
     name: Update WakaTime Stats
     runs-on: ubuntu-latest
+    needs: generate   # <--- 加這個！！！
     steps:
       - uses: athul/waka-readme@master
         with:
