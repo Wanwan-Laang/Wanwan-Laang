@@ -1,6 +1,6 @@
 # Wanwan-Laang
 
-<h2 align="left">Hi 👋! I'm Wanwan Laang, a computational materials student at UIUC 🚀</h2>
+<h2 align="left">Hi 👋! I'm Wanwan Laang, a computational nuclear materials student at UIUC 🚀</h2>
 
 ###
 
