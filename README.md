@@ -11,31 +11,29 @@
 
 ###
 
-<img align="right" height="150" src="https://i.imgflip.com/65efzo.gif"  />
+<img align="right" height="150" src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdG1tbmV0ZWJrZXloc253bjJsMnlzc3dmZ2p3MTRrMGVqMTJlZW9lMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/zZC2AqB84z7zFnlkbF/giphy.gif"  />
 
 ###
 
 <div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" alt="javascript logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="30" alt="react logo" />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="30" alt="typescript logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="30" alt="python logo" />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="30" alt="react logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="30" alt="html5 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="30" alt="css3 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="30" alt="python logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" height="30" alt="csharp logo"  />
+  <a href="https://github.com/deepmodeling" target="_blank">
+    <img src="https://avatars.githubusercontent.com/u/32671488" height="30" alt="DeepMD-kit GitHub" />
+  </a>
+  <img width="12" /> 
+  <a href="https://github.com/brucefan1983/GPUMD" target="_blank">
+    <img src="https://raw.githubusercontent.com/brucefan1983/GPUMD/master/logo/logo-main-arctic.png" height="30" alt="GPUMD GitHub" />
+  </a>
 </div>
 
 ###
 
 <div align="left">
-  <a href="https://www.youtube.com/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Youtube&logo=youtube&label=&color=FF0000&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="youtube logo" />
+  <a href="https://npre.illinois.edu/" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=NPRE@UIUC&logo=google-chrome&label=&color=FF6F00&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="NPRE at UIUC" />
   </a>&nbsp;
   <a href="https://www.instagram.com/wen.laang/" target="_blank">
     <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="instagram logo" />
@@ -53,8 +51,8 @@
     <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo" />
   </a>
 </div>
-###
 
+###
 
 <div align="center">
   <img src="https://github.com/Wanwan-Laang/Wanwan-Laang/blob/output/github-contribution-grid-snake.svg" alt="Snake animation" />
@@ -62,7 +60,7 @@
 
 ###
 
-## 🧮 Wanwan Laang's recent 1 week coding activity:
+## 🧮 Weekly Workload Overview
 
 <!--START_SECTION:waka-->
 
