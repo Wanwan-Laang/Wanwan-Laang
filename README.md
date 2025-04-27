@@ -1,4 +1,4 @@
-# Wanan-Laang
+# Wanwan-Laang
 
 <h2 align="left">Hi 👋! My name is ... and I'm a ..., from ....</h2>
 
@@ -46,7 +46,7 @@
 
 
 <div align="center">
-  <img src="https://github.com/Wanwan-Laang/Wanan-Laang/blob/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+  <img src="https://github.com/Wanwan-Laang/Wanwan-Laang/blob/output/github-contribution-grid-snake.svg" alt="Snake animation" />
 </div>
 
 ###
