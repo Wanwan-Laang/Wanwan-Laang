@@ -17,17 +17,17 @@
 
 <div align="left">
   <a href="https://ans.npre.illinois.edu/" target="_blank">
-    <img src="https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-6/277770109_1772278566296988_2432265443793068873_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=sfAnvw2K2UAQ7kNvwFEFST9&_nc_oc=Admw4QOu9NRD0qMMCkWathEdP0vyyxPYW08vWfRsZCoRISJp7wtCyr7QGaapKyhl_S8&_nc_zt=23&_nc_ht=scontent-ord5-2.xx&_nc_gid=xQSf8rV2L0ftaztdH4fD0Q&oh=00_AfEZZ5oPMUBWz1VUvEHFtRi2PSk8YfAD4jIac53-bvnxzg&oe=6814BE67" height="30" alt="American Nuclear Society University of Illinois chapter" />
+    <img src="https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-6/277770109_1772278566296988_2432265443793068873_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=sfAnvw2K2UAQ7kNvwFEFST9&_nc_oc=Admw4QOu9NRD0qMMCkWathEdP0vyyxPYW08vWfRsZCoRISJp7wtCyr7QGaapKyhl_S8&_nc_zt=23&_nc_ht=scontent-ord5-2.xx&_nc_gid=xQSf8rV2L0ftaztdH4fD0Q&oh=00_AfEZZ5oPMUBWz1VUvEHFtRi2PSk8YfAD4jIac53-bvnxzg&oe=6814BE67" height="50" alt="American Nuclear Society University of Illinois chapter" />
   </a>
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="30" alt="python logo" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="50" alt="python logo" />
   <img width="12" />
   <a href="https://github.com/deepmodeling" target="_blank">
-    <img src="https://avatars.githubusercontent.com/u/32671488" height="30" alt="DeepMD-kit GitHub" />
+    <img src="https://avatars.githubusercontent.com/u/32671488" height="50" alt="DeepMD-kit GitHub" />
   </a>
   <img width="12" /> 
   <a href="https://github.com/brucefan1983/GPUMD" target="_blank">
-    <img src="https://raw.githubusercontent.com/brucefan1983/GPUMD/master/logo/logo-main-arctic.png" height="30" alt="GPUMD GitHub" />
+    <img src="https://raw.githubusercontent.com/brucefan1983/GPUMD/master/logo/logo-main-arctic.png" height="50" alt="GPUMD GitHub" />
   </a>
 </div>
 
