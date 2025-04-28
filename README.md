@@ -13,9 +13,7 @@
 
 <img align="right" height="150" src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdG1tbmV0ZWJrZXloc253bjJsMnlzc3dmZ2p3MTRrMGVqMTJlZW9lMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/zZC2AqB84z7zFnlkbF/giphy.gif"  />
 
-### My Skills and Tools
-### My Skills and Tools
-This section highlights the tools and skills I use in my research and projects. Below are some of the key technologies and frameworks I work with:
+### Affiliated and Interested
 
 <div align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="30" alt="react logo" />
@@ -31,21 +29,6 @@ This section highlights the tools and skills I use in my research and projects. 
   </a>
 </div>
 
-#### **About My Institution**
-I am affiliated with the Department of Nuclear, Plasma, and Radiological Engineering (NPRE) at the University of Illinois Urbana-Champaign (UIUC). My work focuses on computational nuclear materials, leveraging advanced tools and methodologies to solve complex problems in this field.
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="30" alt="react logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="30" alt="python logo" />
-  <img width="12" />
-  <a href="https://github.com/deepmodeling" target="_blank">
-    <img src="https://avatars.githubusercontent.com/u/32671488" height="30" alt="DeepMD-kit GitHub" />
-  </a>
-  <img width="12" /> 
-  <a href="https://github.com/brucefan1983/GPUMD" target="_blank">
-    <img src="https://raw.githubusercontent.com/brucefan1983/GPUMD/master/logo/logo-main-arctic.png" height="30" alt="GPUMD GitHub" />
-  </a>
-</div>
 
 ###
 
