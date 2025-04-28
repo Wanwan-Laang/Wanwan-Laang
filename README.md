@@ -17,7 +17,7 @@
 
 <div align="left">
   <a href="https://ans.npre.illinois.edu/" target="_blank">
-    <img src="https://images.squarespace-cdn.com/content/v1/6350773b0056ec2033bdc337/b53ae41b-fe5f-4926-a273-bb6b6e291f56/Current+UIUC+ANS+Logo+%282%29.png" height="60" alt="American Nuclear Society University of Illinois chapter" />
+    <img src="https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-6/277770109_1772278566296988_2432265443793068873_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=sfAnvw2K2UAQ7kNvwFEFST9&_nc_oc=Admw4QOu9NRD0qMMCkWathEdP0vyyxPYW08vWfRsZCoRISJp7wtCyr7QGaapKyhl_S8&_nc_zt=23&_nc_ht=scontent-ord5-2.xx&_nc_gid=xQSf8rV2L0ftaztdH4fD0Q&oh=00_AfEZZ5oPMUBWz1VUvEHFtRi2PSk8YfAD4jIac53-bvnxzg&oe=6814BE67" height="30" alt="American Nuclear Society University of Illinois chapter" />
   </a>
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="30" alt="python logo" />
