@@ -33,7 +33,7 @@
   </a>
   <img width="12" />
   <a href="https://www.gaggle.fun/" target="_blank">
-    <img src="https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/5cda1ad0f11aee1956eaf91cc01c8b0f.png" height="50" alt="Goose Goose Duck" />
+    <img src="https://o.qoo-img.com/ggpht/2l652ZLy6I_sz1hYKEKHxAlIt65gQfXqBSRLF3WCSxj_51_i_xUyxuRxY6r5ionKJHQ" height="50" alt="Goose Goose Duck" />
   </a>
 </div>
 
