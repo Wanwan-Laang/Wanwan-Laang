@@ -16,7 +16,9 @@
 ### Affiliated and Interested
 
 <div align="left">
-  <img src="https://cdn.ans.org/site/i/ans_dual-233x121.svg" height="30" alt="American Nuclear Society" />
+  <a href="https://ans.npre.illinois.edu/" target="_blank">
+    <img src="https://images.squarespace-cdn.com/content/v1/6350773b0056ec2033bdc337/b53ae41b-fe5f-4926-a273-bb6b6e291f56/Current+UIUC+ANS+Logo+%282%29.png" height="30" alt="American Nuclear Society University of Illinois chapter" />
+  </a>
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="30" alt="python logo" />
   <img width="12" />
