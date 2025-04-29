@@ -13,6 +13,12 @@
 
 <img align="right" height="150" src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdG1tbmV0ZWJrZXloc253bjJsMnlzc3dmZ2p3MTRrMGVqMTJlZW9lMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/zZC2AqB84z7zFnlkbF/giphy.gif"  />
 
+<style>
+a {
+  text-decoration: none; /* 取消所有超連結底線 */
+}
+</style>
+
 ### Affiliated and Interested
 
 <div align="left">
@@ -32,7 +38,6 @@
     <img src="https://o.qoo-img.com/ggpht/2l652ZLy6I_sz1hYKEKHxAlIt65gQfXqBSRLF3WCSxj_51_i_xUyxuRxY6r5ionKJHQ" height="50" alt="Goose Goose Duck" />
   </a>
 </div>
-
 
 ### Personal Network
 
