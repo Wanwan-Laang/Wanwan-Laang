@@ -36,16 +36,16 @@
     <img src="https://raw.githubusercontent.com/Wanwan-Laang/Wanwan-Laang/main/images/Squirrel.png" height="50" alt="Squirrel and Bird Watching Club" />    
   </a>
   <img width="12" />
+  <a href="https://www.gaggle.fun/" target="_blank">
+    <img src="https://o.qoo-img.com/ggpht/2l652ZLy6I_sz1hYKEKHxAlIt65gQfXqBSRLF3WCSxj_51_i_xUyxuRxY6r5ionKJHQ" height="50" alt="Goose Goose Duck" />
+  </a>
+  <img width="12" />
   <a href="https://uiuchksa.com/" target="_blank">
     <img src="https://raw.githubusercontent.com/Wanwan-Laang/Wanwan-Laang/main/images/HKSA.png" height="50" alt="HKSA UIUC" />
   </a>
 <img width="12" />
   <a href="https://www.illiniswing.org/" target="_blank">
     <img src="https://images.squarespace-cdn.com/content/v1/5f482c63e06b00272ac2f95b/1598566061563-H3IJHANL8BFSKTHP8LKS/logo_big.png" height="50" alt="Illini Swing Society" />
-  </a>
-  <img width="12" />
-  <a href="https://www.gaggle.fun/" target="_blank">
-    <img src="https://o.qoo-img.com/ggpht/2l652ZLy6I_sz1hYKEKHxAlIt65gQfXqBSRLF3WCSxj_51_i_xUyxuRxY6r5ionKJHQ" height="50" alt="Goose Goose Duck" />
   </a>
 </div>
 
