@@ -19,14 +19,14 @@
   <a href="https://ans.npre.illinois.edu/" target="_blank">
     <img src="https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-6/277770109_1772278566296988_2432265443793068873_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=sfAnvw2K2UAQ7kNvwFEFST9&_nc_oc=Admw4QOu9NRD0qMMCkWathEdP0vyyxPYW08vWfRsZCoRISJp7wtCyr7QGaapKyhl_S8&_nc_zt=23&_nc_ht=scontent-ord5-2.xx&_nc_gid=xQSf8rV2L0ftaztdH4fD0Q&oh=00_AfEZZ5oPMUBWz1VUvEHFtRi2PSk8YfAD4jIac53-bvnxzg&oe=6814BE67" height="50" alt="American Nuclear Society University of Illinois chapter" />
   </a>
-  <img width="12" />
-  <a href="https://github.com/deepmodeling" target="_blank">
-    <img src="https://avatars.githubusercontent.com/u/32671488" height="50" alt="DeepMD-kit GitHub" />
-  </a>
   <img width="12" /> 
   <a href="https://github.com/brucefan1983/GPUMD" target="_blank">
     <img src="https://raw.githubusercontent.com/brucefan1983/GPUMD/master/logo/logo-main-arctic.png" height="50" alt="GPUMD GitHub" />
   </a>
+  <img width="12" />
+  <a href="https://github.com/deepmodeling" target="_blank">
+    <img src="https://avatars.githubusercontent.com/u/32671488" height="50" alt="DeepMD-kit GitHub" />
+  </a>  
   <img width="12" />
   <a href="https://www.gaggle.fun/" target="_blank">
     <img src="https://o.qoo-img.com/ggpht/2l652ZLy6I_sz1hYKEKHxAlIt65gQfXqBSRLF3WCSxj_51_i_xUyxuRxY6r5ionKJHQ" height="50" alt="Goose Goose Duck" />
