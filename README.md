@@ -33,7 +33,11 @@
   </a>
   <img width="12" />
   <a href="https://one.illinois.edu/squirrelandbirdwatchingclub/home/" target="_blank">
-    <img src="https://raw.githubusercontent.com/Wanwan-Laang/Wanwan-Laang/main/images/Squirrel.png" height="50" alt="Squirrel and Bird Watching Club" />
+    <img src="https://raw.githubusercontent.com/Wanwan-Laang/Wanwan-Laang/main/images/Squirrel.png" height="50" alt="Squirrel and Bird Watching Club" />    
+  </a>
+  <img width="12" />
+  <a href="https://uiuchksa.com/" target="_blank">
+    <img src="https://raw.githubusercontent.com/Wanwan-Laang/Wanwan-Laang/main/images/HKSA.png" height="50" alt="HKSA UIUC" />
   </a>
   <img width="12" />
   <a href="https://www.gaggle.fun/" target="_blank">
