@@ -29,8 +29,12 @@
   </a>
   <img width="12" />
   <a href="https://publish.illinois.edu/uiuc-wildlifesociety/" target="_blank">
-  <img src="https://raw.githubusercontent.com/Wanwan-Laang/Wanwan-Laang/main/images/TWS.jpg" height="50" alt="The Wildlife Society at UIUC" />
-  </a>  
+    <img src="https://raw.githubusercontent.com/Wanwan-Laang/Wanwan-Laang/main/images/TWS.jpg" height="50" alt="The Wildlife Society at UIUC" />
+  </a>
+  <img width="12" />
+  <a href="https://one.illinois.edu/squirrelandbirdwatchingclub/home/" target="_blank">
+    <img src="https://raw.githubusercontent.com/Wanwan-Laang/Wanwan-Laang/main/images/Squirrel.png" height="50" alt="Squirrel and Bird Watching Club" />
+  </a>
   <img width="12" />
   <a href="https://www.gaggle.fun/" target="_blank">
     <img src="https://o.qoo-img.com/ggpht/2l652ZLy6I_sz1hYKEKHxAlIt65gQfXqBSRLF3WCSxj_51_i_xUyxuRxY6r5ionKJHQ" height="50" alt="Goose Goose Duck" />
