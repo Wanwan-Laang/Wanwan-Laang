@@ -29,7 +29,7 @@
   </a>
   <img width="12" />
   <a href="https://publish.illinois.edu/uiuc-wildlifesociety/" target="_blank">
-  <img src="https://raw.githubusercontent.com/Wanwan-Laang/Wanwan-Laang/output/image/TWS.jpg" height="50" alt="The Wildlife Society at UIUC" />
+  <img src="https://raw.githubusercontent.com/Wanwan-Laang/Wanwan-Laang/main/images/TWS.jpg" height="50" alt="The Wildlife Society at UIUC" />
   </a>  
   <img width="12" />
   <a href="https://www.gaggle.fun/" target="_blank">
