@@ -25,7 +25,7 @@
   </a>
   <img width="12" /> 
   <a href="https://www.cstam.org.cn/index.html" target="_blank">
-    <img src="https://www.cstam.org.cn/upload/zglixuexuehui/6477ff0b40468.png" height="50" alt="The Chinese Society of Theoretical Applied Mechanics" />
+    <img src="https://github.com/Wanwan-Laang/Wanwan-Laang/blob/main/images/CSTAM.png" height="50" alt="The Chinese Society of Theoretical Applied Mechanics" />
   </a>
   <img width="12" />
   <a href="https://github.com/deepmodeling" target="_blank">
