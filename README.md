@@ -23,6 +23,10 @@
   <a href="https://github.com/brucefan1983/GPUMD" target="_blank">
     <img src="https://raw.githubusercontent.com/brucefan1983/GPUMD/master/logo/logo-main-arctic.png" height="50" alt="GPUMD GitHub" />
   </a>
+  <img width="12" /> 
+  <a href="https://www.cstam.org.cn/index.html" target="_blank">
+    <img src="https://cctam2021.cstam.org.cn/data/public/upload/uploadimage/20210126/1611645216660799.png" height="50" alt="The Chinese Society of Theoretical Applied Mechanics" />
+  </a>
   <img width="12" />
   <a href="https://github.com/deepmodeling" target="_blank">
     <img src="https://avatars.githubusercontent.com/u/32671488" height="50" alt="DeepMD-kit GitHub" />
