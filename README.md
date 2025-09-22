@@ -1,6 +1,6 @@
-  # Wanwan-Laang
+  # Wenwen-Leng
 
-  <h2 align="left">Hi 👋! I'm Wanwan Laang, a computational nuclear materials student at UIUC 🚀</h2>
+  <h2 align="left">Hi 👋! I'm Wenwen Leng, a PhD student at UIUC in computational nuclear materials 🚀</h2>
 
   ###
 
@@ -90,11 +90,17 @@
   <!--START_SECTION:waka-->
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   ```txt
   From: 10 July 2025 - To: 17 July 2025
+=======
+```txt
+From: 15 September 2025 - To: 22 September 2025
+>>>>>>> 3ea17132191546f1ea68f8878bf8ea51469ff380
 
-  Total Time: 7 hrs 57 mins
+Total Time: 0 secs
 
+<<<<<<< HEAD
   Python     3 hrs 35 mins   🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   45.13 %
   Other      2 hrs 56 mins   🟩🟩🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   36.84 %
   CSV        50 mins         🟩🟩🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   10.51 %
@@ -116,7 +122,11 @@ Bash       2 mins          🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 Markdown   0 secs          ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   00.02 %
 ```
 >>>>>>> 093bd07e65e2323fbaeb6a91ad7342e844d3a522
+=======
+No activity tracked
+```
+>>>>>>> 3ea17132191546f1ea68f8878bf8ea51469ff380
 
-  <!--END_SECTION:waka-->
+<!--END_SECTION:waka-->
 
   <br clear="both" />
