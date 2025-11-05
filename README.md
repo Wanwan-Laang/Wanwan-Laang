@@ -1,4 +1,4 @@
-  # Wenwen-Leng
+  # Wenwen (Winston) Leng
 
   <h2 align="left">Hi 👋! I'm Wenwen Leng, a PhD student at UIUC in computational nuclear materials 🚀</h2>
 
