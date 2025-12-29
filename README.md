@@ -24,6 +24,10 @@
       <img src="https://raw.githubusercontent.com/brucefan1983/GPUMD/master/logo/logo-main-arctic.png" height="50" alt="GPUMD GitHub" />
     </a>
     <img width="12" /> 
+    <a href="https://www.apa.org/" target="_blank">
+      <img src="https://github.com/Wanwan-Laang/Wanwan-Laang/blob/main/images/APA.svg" height="50" alt="American Psychological Association" />
+    </a>
+    <img width="12" /> 
     <a href="https://www.cstam.org.cn/index.html" target="_blank">
       <img src="https://github.com/Wanwan-Laang/Wanwan-Laang/blob/main/images/CSTAM.png" height="50" alt="The Chinese Society of Theoretical Applied Mechanics" />
     </a>
