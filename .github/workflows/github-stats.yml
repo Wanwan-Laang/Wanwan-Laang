@@ -15,19 +15,36 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Generate GitHub Stats Images
+        env:
+          # Use self-hosted API URL if available, otherwise use public API
+          # Note: GITHUB_STATS_API secret is optional - if not set, will use public API
+          GITHUB_STATS_API: ${{ secrets.GITHUB_STATS_API }}
         run: |
           mkdir -p images
           
+          # Set default API URL if not provided
+          if [ -z "$GITHUB_STATS_API" ]; then
+            GITHUB_STATS_API="https://github-readme-stats.vercel.app"
+            echo "Using public API (public repos only)"
+          else
+            echo "Using self-hosted API: $GITHUB_STATS_API (supports private repos)"
+          fi
+          
           # Generate stats card
-          # Note: Public github-readme-stats API only shows public repos
-          # To include private repos, you need to self-host github-readme-stats
-          # See: https://github.com/anuraghazra/github-readme-stats#deploy-on-your-own-vercel-instance
-          curl -s "https://github-readme-stats.vercel.app/api?username=Wanwan-Laang&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" \
+          # If GITHUB_STATS_API is set to a custom URL, it's a self-hosted instance
+          # Self-hosted instances can access private repos via PAT_1 env var in Vercel
+          curl -s "${GITHUB_STATS_API}/api?username=Wanwan-Laang&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" \
             -o images/github-stats.svg
           
           # Generate languages card
-          curl -s "https://github-readme-stats.vercel.app/api/top-langs?username=Wanwan-Laang&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" \
+          curl -s "${GITHUB_STATS_API}/api/top-langs?username=Wanwan-Laang&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" \
             -o images/github-langs.svg
+          
+          # Verify files were created
+          if [ ! -f images/github-stats.svg ] || [ ! -f images/github-langs.svg ]; then
+            echo "Error: Failed to generate stats images"
+            exit 1
+          fi
 
       - name: Commit and push if changed
         run: |
