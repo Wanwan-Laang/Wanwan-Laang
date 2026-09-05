@@ -83,10 +83,11 @@ jobs:
           def rows(values, limit):
               output = []
               for name, seconds in sorted(values.items(), key=lambda item: item[1], reverse=True)[:limit]:
+                  display_name = "AI-Assisted Research" if name == "AI Coding" else name
                   percent = (seconds / total * 100) if total else 0
                   filled = round(percent / 4)
                   bar = "🟩" * filled + "⬜" * (25 - filled)
-                  output.append(f"{name[:14]:<14}{duration(seconds):<20}{bar}  {percent:05.2f} %")
+                  output.append(f"{display_name[:22]:<22}{duration(seconds):<20}{bar}  {percent:05.2f} %")
               return output
 
           start = payload.get("start")
