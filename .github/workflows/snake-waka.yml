@@ -8,7 +8,7 @@ on:
 
   push:
     branches:
-    - main
+      - main
 
 jobs:
   generate:
@@ -17,33 +17,118 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
-      - name: generate snake.svg
+      - name: Generate snake SVG
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-      - name: push snake.svg to the output branch
+      - name: Push snake SVG to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
           build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
   update-waka:
-    name: Update WakaTime Stats
+    name: Update complete WakaTime stats
+    permissions:
+      contents: write
     runs-on: ubuntu-latest
     steps:
-      - uses: athul/waka-readme@master
-        with:
+      - uses: actions/checkout@v4
+
+      - name: Update README from WakaTime Summaries API
+        env:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-          SHOW_TITLE: true
-          COMMIT_MESSAGE: Update Wakapi stats
-          BLOCKS: "⬜🟨🟩"
-          LANG_COUNT: 6
-          TIME_RANGE: last_7_days
-          SHOW_TIME: true
-          SHOW_TOTAL: true
-          SHOW_MASKED_TIME: true
-          TARGET_PATH: README.md
+        run: |
+          python3 - <<'PY'
+          import base64
+          import json
+          import os
+          import re
+          import urllib.request
+          from collections import defaultdict
+          from datetime import datetime
+
+          key = os.environ["WAKATIME_API_KEY"]
+          auth = base64.b64encode(f"{key}:".encode()).decode()
+          url = "https://wakatime.com/api/v1/users/current/summaries?range=Last%207%20Days"
+          request = urllib.request.Request(url, headers={"Authorization": f"Basic {auth}"})
+          with urllib.request.urlopen(request, timeout=60) as response:
+              payload = json.load(response)
+
+          days = payload.get("data", [])
+          total = float(payload.get("cumulative_total", {}).get("seconds", 0))
+          categories = defaultdict(float)
+          languages = defaultdict(float)
+          for day in days:
+              for item in day.get("categories", []):
+                  categories[item["name"]] += float(item.get("total_seconds", 0))
+              for item in day.get("languages", []):
+                  languages[item["name"]] += float(item.get("total_seconds", 0))
+
+          def duration(seconds):
+              minutes = round(seconds / 60)
+              hours, minutes = divmod(minutes, 60)
+              if hours and minutes:
+                  return f"{hours} hrs {minutes} mins"
+              if hours:
+                  return f"{hours} hrs"
+              return f"{minutes} mins"
+
+          def rows(values, limit):
+              output = []
+              for name, seconds in sorted(values.items(), key=lambda item: item[1], reverse=True)[:limit]:
+                  percent = (seconds / total * 100) if total else 0
+                  filled = round(percent / 4)
+                  bar = "🟩" * filled + "⬜" * (25 - filled)
+                  output.append(f"{name[:12]:<12}{duration(seconds):<20}{bar}  {percent:05.2f} %")
+              return output
+
+          start = payload.get("start")
+          end = payload.get("end")
+          if start and end:
+              start_text = datetime.fromisoformat(start.replace("Z", "+00:00")).strftime("%d %B %Y")
+              end_text = datetime.fromisoformat(end.replace("Z", "+00:00")).strftime("%d %B %Y")
+          else:
+              start_text = days[0]["range"]["date"]
+              end_text = days[-1]["range"]["date"]
+
+          lines = [
+              "~~~txt",
+              f"From: {start_text} - To: {end_text}",
+              "",
+              f"Total Activity: {duration(total)}",
+              "",
+              "Activity Categories",
+              *rows(categories, 6),
+              "",
+              "Languages",
+              *rows(languages, 6),
+              "~~~",
+          ]
+          replacement = "<!--START_SECTION:waka-->
+
+" + "
+".join(lines) + "
+
+<!--END_SECTION:waka-->"
+          path = "README.md"
+          readme = open(path, encoding="utf-8").read()
+          pattern = r"<!--START_SECTION:waka-->.*?<!--END_SECTION:waka-->"
+          updated, count = re.subn(pattern, replacement, readme, flags=re.DOTALL)
+          if count != 1:
+              raise RuntimeError(f"Expected one WakaTime section, found {count}")
+          open(path, "w", encoding="utf-8").write(updated)
+          PY
+
+      - name: Commit updated WakaTime stats
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --cached --quiet || git commit -m "Update complete WakaTime stats"
+          git push
