@@ -73,10 +73,11 @@ jobs:
           def duration(seconds):
               minutes = round(seconds / 60)
               hours, minutes = divmod(minutes, 60)
+              unit = "hr" if hours == 1 else "hrs"
               if hours and minutes:
-                  return f"{hours} hrs {minutes} mins"
+                  return f"{hours} {unit} {minutes} mins"
               if hours:
-                  return f"{hours} hrs"
+                  return f"{hours} {unit}"
               return f"{minutes} mins"
 
           def rows(values, limit):
@@ -85,7 +86,7 @@ jobs:
                   percent = (seconds / total * 100) if total else 0
                   filled = round(percent / 4)
                   bar = "🟩" * filled + "⬜" * (25 - filled)
-                  output.append(f"{name[:12]:<12}{duration(seconds):<20}{bar}  {percent:05.2f} %")
+                  output.append(f"{name[:14]:<14}{duration(seconds):<20}{bar}  {percent:05.2f} %")
               return output
 
           start = payload.get("start")
