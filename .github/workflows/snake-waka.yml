@@ -110,12 +110,7 @@ jobs:
               *rows(languages, 6),
               "~~~",
           ]
-          replacement = "<!--START_SECTION:waka-->
-
-" + "
-".join(lines) + "
-
-<!--END_SECTION:waka-->"
+          replacement = chr(10).join(["<!--START_SECTION:waka-->", "", *lines, "", "<!--END_SECTION:waka-->"])
           path = "README.md"
           readme = open(path, encoding="utf-8").read()
           pattern = r"<!--START_SECTION:waka-->.*?<!--END_SECTION:waka-->"
