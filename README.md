@@ -16,7 +16,7 @@
 
   <div align="left">
     <a href="https://ans.npre.illinois.edu/" target="_blank">
-      <img src="https://github.com/Wanwan-Laang/Wanwan-Laang/blob/main/images/ANS.jpg" height="50" alt="American Nuclear Society University of Illinois chapter" />
+      <img src="https://raw.githubusercontent.com/Wanwan-Laang/Wanwan-Laang/main/images/ANS.jpg" height="50" alt="American Nuclear Society University of Illinois chapter" />
     </a>
     <img width="12" /> 
     <a href="https://github.com/brucefan1983/GPUMD" target="_blank">
@@ -24,11 +24,11 @@
     </a>
     <img width="12" /> 
     <a href="https://www.apa.org/" target="_blank">
-      <img src="https://github.com/Wanwan-Laang/Wanwan-Laang/blob/main/images/APA.svg" height="50" alt="American Psychological Association" />
+      <img src="https://raw.githubusercontent.com/Wanwan-Laang/Wanwan-Laang/main/images/APA.svg" height="50" alt="American Psychological Association" />
     </a>
     <img width="12" /> 
     <a href="https://www.cstam.org.cn/index.html" target="_blank">
-      <img src="https://github.com/Wanwan-Laang/Wanwan-Laang/blob/main/images/CSTAM.png" height="50" alt="The Chinese Society of Theoretical Applied Mechanics" />
+      <img src="https://raw.githubusercontent.com/Wanwan-Laang/Wanwan-Laang/main/images/CSTAM.png" height="50" alt="The Chinese Society of Theoretical Applied Mechanics" />
     </a>
     <img width="12" />
     <a href="https://github.com/deepmodeling" target="_blank">
@@ -40,7 +40,7 @@
     </a>
     <img width="12" />
     <a href="https://one.illinois.edu/squirrelandbirdwatchingclub/home/" target="_blank">
-      <img src="https://ugc.production.linktr.ee/9NEmG766TmSXbRs5UJme_MjImyLK1MzH2qI1j" height="50" alt="Squirrel and Bird Watching Club" />    
+      <img src="https://raw.githubusercontent.com/Wanwan-Laang/Wanwan-Laang/main/images/Squirrel.png" height="50" alt="Squirrel and Bird Watching Club" />    
     </a>
     <img width="12" />
     <a href="https://www.gaggle.fun/" target="_blank">
@@ -52,7 +52,7 @@
     </a>
   <img width="12" />
     <a href="https://www.illiniswing.org/" target="_blank">
-      <img src="https://images.squarespace-cdn.com/content/v1/5f482c63e06b00272ac2f95b/1598566061563-H3IJHANL8BFSKTHP8LKS/logo_big.png" height="50" alt="Illini Swing Society" />
+      Illini Swing Society
     </a>
   </div>
 
@@ -83,7 +83,7 @@
   ###
 
   <div align="center">
-    <img src="https://github.com/Wanwan-Laang/Wanwan-Laang/blob/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+    <img src="https://raw.githubusercontent.com/Wanwan-Laang/Wanwan-Laang/output/github-contribution-grid-snake.svg" alt="Snake animation" />
   </div>
 
   ###
