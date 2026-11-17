@@ -4,10 +4,9 @@
 
   ###
 
-  <div align="center">
-    <img src="https://raw.githubusercontent.com/Wanwan-Laang/Wanwan-Laang/main/images/github-stats.svg" height="150" alt="stats graph"  />
-    <img src="https://raw.githubusercontent.com/Wanwan-Laang/Wanwan-Laang/main/images/github-langs.svg" height="150" alt="languages graph"  />
-  </div>
+  <p align="center">
+    <a href="https://github.com/Wanwan-Laang?tab=repositories">Explore my repositories and contribution activity on GitHub →</a>
+  </p>
 
   ###
 
